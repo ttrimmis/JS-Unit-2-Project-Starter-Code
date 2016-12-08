@@ -29,10 +29,13 @@ the provided site architecture.
 
 __Feed sources:__
 
-Give the user the ability to pull from a multiple news sources. Here are two news sources we suggest:
+Give the user the ability to pull from a multiple news sources. Here are a few news sources we suggest:
 
-- [NPR One](http://dev.npr.org/)
-- [Hearst publishing group](http://developer.hearst.com/) (Cosmopolitan, Elle, Popular Mechanics, Road and Track, etc.)
+- [Reddit](https://www.reddit.com/dev/api)
+- [The Guardian](http://open-platform.theguardian.com/access/) 
+- [Hacker News](https://github.com/HackerNews/API)
+- [Daily WTF](http://thedailywtf.com/articles/tdwtf-api)
+- [newsapi.org](https://newsapi.org) (republishes a number of news sources)
 
 You should also feel free to use other news APIs; however, you will find that many APIs that do not support either [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) or [JSONp](https://en.wikipedia.org/wiki/JSONP) will result in a cross-domain restriction error ("No 'Access-Control-Allow-Origin' header is present...") in the browser. To get around this, you can use the following proxy server to filter your API requests.
 
