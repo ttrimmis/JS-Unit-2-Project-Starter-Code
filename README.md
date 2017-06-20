@@ -35,6 +35,7 @@ Give the user the ability to pull from a multiple news sources. Here are a few n
 - [The Guardian](http://open-platform.theguardian.com/access/) 
 - [Hacker News](https://github.com/HackerNews/API)
 - [Daily WTF](http://thedailywtf.com/articles/tdwtf-api)
+- [Event Registry](https://eventregistry.org)
 - [newsapi.org](https://newsapi.org) (republishes a number of news sources)
 
 You should also feel free to use other news APIs; however, you will find that many APIs that do not support either [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) or [JSONp](https://en.wikipedia.org/wiki/JSONP) will result in a cross-domain restriction error ("No 'Access-Control-Allow-Origin' header is present...") in the browser. To get around this, you can use the following proxy server to filter your API requests.
@@ -126,7 +127,6 @@ __Additional UI interaction rules:__
   - Most of the your will be done on the __app.js__ file. You may update
   the index.html and style.css files if you would like to further customize your
   app.
-* A 5-10 minute **presentation** including 3 technical hurdles, 2 new things you learned, Q&A.
 
 ---
 
@@ -187,6 +187,6 @@ Here are some sugestions on where to start:
 
 When your project is complete, copy the code to your github.io repo and send the link to Nicole and Sasha.
 
-If you'd like to schedule a 30-minute code review, let Nicole and Sasha know. This is an opportunity for you to demonstrate your app and explain how you coded it, and for the instructional team to give you feedback on what you did well as well as things you might consider doing differently or adding for your future coding projects. 
+If you'd like to schedule a 30-minute code review, let Sasha and Larissa know. This is an opportunity for you to demonstrate your app and explain how you coded it, and for the instructional team to give you feedback on what you did well as well as things you might consider doing differently or adding for your future coding projects. 
 
-A code review is optional, so if you'd like to participate in one, it is up to you to contact Nicole and Sasha to schedule it once your project is done.
+A code review is optional, so if you'd like to participate in one, it is up to you to contact Sasha and Larissa to schedule it once your project is done.
