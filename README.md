@@ -132,25 +132,25 @@ __Additional UI interaction rules:__
 
 ### Getting Started
 
-Begin by "forking" the starter code repository. You can do so by clicking the "Fork" icon on
-the top right of [this](https://github.com/generalassembly-studio/JS-Unit-2-Project-Starter-Code) page. Once
+Begin by forking the starter code repository. You can do so by clicking the "Fork" icon on
+the top right of [this page](https://github.com/generalassembly-studio/JS-Unit-2-Project-Starter-Code). Once
 complete, clone the repository to your computer by running the following
 commands:
 
 ```
-cd ~/Sites/
+cd ~/JSD/
 git clone https://github.com/<your-username-here>/feedr.git
 cd feedr
 ```
 
-You can then open Sublime Text and point it at the `~/Sites/feedr` directory and
+You can then open the `~/JSD/feedr` directory in your editor and
 work on the below steps. As you accomplish a feature, be sure to commit it in
 Git with the following commands:
 
 ```
 git add .
 git commit -m "A description of what was added"
-git push -u origin master
+git push origin master
 ```
 
 Here are some sugestions on where to start:
@@ -164,7 +164,7 @@ Here are some sugestions on where to start:
 - Think about ways to best standardize all of your incoming data.
 - Test small pieces of functionality frequently, to make sure everything is
   working.
-- Use tools such as Stack Overflow, Google and documentation resources to solve
+- Use tools such as Stack Overflow, Google, and documentation resources to solve
   problems.
 
 ---
@@ -185,7 +185,7 @@ Here are some sugestions on where to start:
 
 ### Project Feedback + Evaluation
 
-When your project is complete, copy the code to your github.io repo and send the link to Nicole and Sasha.
+When your project is complete, push the final version to your fork on GitHub and send the link to Larissa and Sasha. You do not need to create a pull request for this project.
 
 If you'd like to schedule a 30-minute code review, let Sasha and Larissa know. This is an opportunity for you to demonstrate your app and explain how you coded it, and for the instructional team to give you feedback on what you did well as well as things you might consider doing differently or adding for your future coding projects. 
 
