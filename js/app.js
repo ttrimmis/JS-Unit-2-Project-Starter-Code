@@ -11,7 +11,7 @@ $(window).on('load', function () {
 });
 
 // This will display on page load
-$(function initialReddit() {
+$(function redditOnPageLoad() {
   $.ajax({
     type: 'GET',
     url: 'https://www.reddit.com/top.json',
@@ -49,7 +49,7 @@ $(function initialReddit() {
 });
 
 // Mashable feed
-$('#mashable').on('click', function loadMashable() {
+$('#mashable').on('click', function mashable() {
   $('#newsSource').text('Mashable');
   $.ajax({
     type: 'GET',
@@ -81,7 +81,7 @@ $('#mashable').on('click', function loadMashable() {
 });
 
 // Digg feed
-$('#digg').on('click', function loadDigg() {
+$('#digg').on('click', function digg() {
   $('#newsSource').text('Digg');
   $.ajax({
     type: 'GET',
@@ -113,7 +113,7 @@ $('#digg').on('click', function loadDigg() {
 });
 
 // Reddit feed
-$('#reddit, #logo').on('click', function loadReddit() {
+$('#reddit, #logo').on('click', function reddit() {
   $('#newsSource').text('Reddit');
   $.ajax({
     type: 'GET',
